@@ -11,7 +11,7 @@ import java.util.Scanner;
             System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
             System.out.println("You will enter a total of seven numbers (including a bonus) and if it matches, you'll a win prize!");
             System.out.println("However! You can only enter numbers between 1 and 49 only!");
-            System.out.println("The bonus ball has to match with your bonus number, anything else can match regardless of the order");
+            System.out.println("The bonus ball has to match with your bonus number, anything else can match regardless of their order");
             System.out.println("Good luck and have fun!");
             System.out.println("Type !P for the prize list or press Enter to skip this part");
             String PLIST = sc.nextLine();
@@ -41,7 +41,7 @@ import java.util.Scanner;
             System.out.println("Enter your second number!");
             int num2 = sc.nextInt();
             
-             while (num2 > 49 || num2 < 1) {
+            while (num2 > 49 || num2 < 1) {
             System.out.println("INVALID! Enter numbers between 1 and 49 ONLY");
             num2 = sc.nextInt();
         }
@@ -73,7 +73,7 @@ import java.util.Scanner;
             System.out.println("And lastly, your final number!");
             int num6 = sc.nextInt();
             
-             while (num6 > 49 || num6 < 1) {
+            while (num6 > 49 || num6 < 1) {
             System.out.println("INVALID! Enter numbers between 1 and 49 ONLY");
             num6 = sc.nextInt();
         }
